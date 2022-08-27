@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 4%, rgba(253,187,45,1) 100%);
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.container{
+    width: 80%;
+    box-shadow: 0 0 1rem 0 rgb(0,0, 0.2);
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.bavbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 90px;
+    margin: 0;
+}
+
+nav {
+    width: 100%;
+    text-align: right;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.nav-link {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.nav-link:hover{
+    color: #305599;
+
+}
+
+.seinao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.coluna-1{
+    margin-left: 50px;
+    position: relative;
+
+}
+
+h2{
+    font-size: 54px;
+}
+
+h3{
+    font-size: 30px;
+    color: #707070;
+    font-weight: 100;
+    margin: 20px 0;
+}
+
+.coluna-1 p {
+    font-size: 16px;
+    color: rgb(38, 11, 75);
+    font-weight: 100;
+}
+
+
+    
+}
+
+h4{
+    font-size: 20px;
+    color: black;
+    margin: 30px 0;
+}
+
+.buton_principal{
+    width: 140px;
+    border: none;
+    padding: 12px 10px ;
+    outline: none;
+    color: cornsilk;
+    border-radius: 6px;
+    cursor: pointer;
+    z-index: 2;
+    background: linear-gradient(to right, #fb5283, #8256fb);
+
+}
+
+.coluna-2{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.img-principal{
+    width: 90%;
+    z-index: 2;
+
+}
+
+.color-box{
+    position: absolute;
+    width: 0;
+    top: 0;
+    background: linear-gradient(to right, #fb5283, #8256fb);
+    height: 100px;
+    width: 80%;
+    border-radius: 20px 0 0 20px;
+    z-index: 1;
+    transform: translatex(150px);
+}
+
+.buton-secundario{
+    z-index: 2;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.buton-secundario img{
+    height: 30px;
+    width: 30px;
+}
+
+.social_links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.social_links img{
+    height: 20px;
+    margin: 20px;
+    cursor: pointer;
+    position: relative;
+}
